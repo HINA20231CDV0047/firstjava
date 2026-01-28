@@ -8,15 +8,15 @@ public class Addition {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter the first number: ");
+        System.out.print("Enter number: ");
         num1 = scanner.nextInt(); 
 
-        System.out.print("Enter the second number: ");
+        System.out.print("Enter number: ");
         num2 = scanner.nextInt(); 
 
         sum = num1 + num2;
 
-        System.out.println("The sum of these numbers is: " + sum);
+        System.out.println("sum: " + sum);
         scanner.close();
     }
 }
